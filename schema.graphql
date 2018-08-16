@@ -1,0 +1,9 @@
+
+type Thing {
+    id: ID
+    prop: String
+}
+
+type Query {
+    getThing(id: ID): Thing
+}
